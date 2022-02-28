@@ -1,0 +1,205 @@
+/* Body */
+
+*
+{
+	font-family: 'Arial black';
+	color: #8C949E;
+	padding: 0;
+	margin: 0;
+}
+
+#gauche, #droite
+{
+	padding-right: 10px; 
+}
+
+#gauche p
+{
+	font-size: 0.75em;
+}
+
+#condi, #create
+{
+	font-size: 0.75em;
+}
+
+h1, h2, span
+{
+	color: black;
+}
+
+h3
+{
+	color: black;
+	font-style: normal;
+}
+
+#conteneur1
+{
+	width: 100%;
+	margin: auto;
+	background-color: #ECF0F5;
+}
+
+
+
+header
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: #3E5D99;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+
+#logo
+{
+	font-size: 1.75em;
+	color: white;
+}
+
+#connex
+{
+	display: flex;
+	color: white;
+}
+
+#connex a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#cd
+{
+	padding-top: 18px;
+}
+
+.c
+{
+	margin-right: 10px;
+}
+
+#corps
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	font-style: normal;
+	background-color: #ECF0F5;
+	height: 800px;
+	padding-top: 30px;
+}
+
+.icon
+{
+	height: 50px;
+}
+
+#gauche
+{
+	width: 400px;
+	padding-right: 40px;
+}
+#gauche
+{
+	padding-right:0;
+	width: 500px;
+}
+
+#droite
+{
+	width: 400px;
+}
+
+#point
+{
+	width:15px;
+}
+
+#submit
+{
+	width: 175px;
+	height: 35px;
+	background-color: #2B9E2A;
+	color: white;
+	font-size: 1.2em;
+}
+
+#butt
+{
+	background-color: #3E5D99;
+	color: white;
+}
+
+
+@media screen and (max-width: 700px)
+{
+	#hd
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#connex
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#corps
+	{
+		flex-direction: column;
+	}
+
+	#droite
+	{
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+	#droite p
+	{
+		margin-left: 35%;
+	}
+
+	h1, h2, h3
+	{
+		text-align: center;
+	}
+
+	#submit
+	{
+		margin-left: 35%;
+	}
+}
+
+@media all and (max-width: 520px)
+{
+	#corps, #corps #droite, #corps #gauche
+	{
+		width: 100%;
+	}
+
+	#corps #droite p
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+	.b, #firstname, #lastname, #mobileemail, #password
+	{
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+
+	#submit
+	{
+		margin-left: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
